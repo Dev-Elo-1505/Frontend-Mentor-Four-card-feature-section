@@ -1,0 +1,50 @@
+html {
+    font-size: 62.5%;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    color: hsl(234, 12%, 34%);
+    padding: 2rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.center h1, .center p {
+    font-weight: 200;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.grid div {
+    padding: 2rem;
+    margin: 1.2rem;
+    width: 100%;
+    height: 200px;
+    border-radius: 7px;
+    box-shadow: 10px 10px 20px hsl(229, 6%, 66%);
+}
+
+.grid div p {
+    font-weight: 200;
+}
+
+.grid div h3 {
+    color: hsl(234, 12%, 34%);
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
